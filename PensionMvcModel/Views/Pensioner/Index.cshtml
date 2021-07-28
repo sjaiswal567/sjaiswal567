@@ -1,0 +1,48 @@
+﻿@model PensionMvcModel.Models.PensionDetails
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<div>
+    <h4>PensionDetails</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.NamePensioner)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.NamePensioner)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.DOB)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.DOB)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.PAN)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.PAN)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.PensionSelected)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.PensionSelected)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.PensionAmt)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.PensionAmt)
+        </dd>
+    </dl>
+</div>
+<div>
+    @Html.ActionLink("Proceed to Pay", "PensionerDis", "PensDis",new { @Model.PAN, @Model.PensionAmt}) 
+    <a asp-action="Index">Back to List</a>
+</div>

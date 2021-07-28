@@ -1,0 +1,5 @@
+C:\Users\91983\source\repos\ProcessPension\PensionDistribution\obj\Debug\netcoreapp3.1\PensionDistribution.csproj.AssemblyReference.cache
+C:\Users\91983\source\repos\ProcessPension\PensionDistribution\obj\Debug\netcoreapp3.1\PensionDistribution.AssemblyInfoInputs.cache
+C:\Users\91983\source\repos\ProcessPension\PensionDistribution\obj\Debug\netcoreapp3.1\PensionDistribution.AssemblyInfo.cs
+C:\Users\91983\source\repos\ProcessPension\PensionDistribution\obj\Debug\netcoreapp3.1\PensionDistribution.csproj.CoreCompileInputs.cache
+C:\Users\91983\source\repos\ProcessPension\PensionDistribution\obj\Debug\netcoreapp3.1\PensionDistribution.MvcApplicationPartsAssemblyInfo.cache

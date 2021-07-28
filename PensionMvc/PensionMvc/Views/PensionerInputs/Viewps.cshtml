@@ -1,0 +1,44 @@
+﻿@model PensionMvc.Models.PensionDetails
+
+@{
+    ViewBag.Title = "Viewps";
+}
+
+<h2>Viewps</h2>
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.NamePensioner)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DOB)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PensionSelected)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PensionAmt)
+        </th>
+        <th></th>
+    </tr>
+
+    <tr>
+        <td>
+            @Html.DisplayFor(m=>m.NamePensioner)
+        </td>
+        <td>
+            @Html.DisplayFor(m=>m.DOB)
+        </td>
+        <td>
+            @Html.DisplayFor(m=>m.PensionSelected)
+        </td>
+        <td>
+            @Html.DisplayFor(m=>m.PensionAmt)
+        </td>
+        <td>
+        </td>
+    </tr>
+</table>
